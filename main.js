@@ -17,7 +17,7 @@ function publishResult(){
         document.getElementById("sum").innerHTML="Please Enter the valid marks";
     }
     else{
-    document.getElementById("sum").innerHTML="The Sum Is:" + total ;
+    document.getElementById("sum").innerHTML="The Sum Is: " + total ;
     }
 
     let percentage=(total*100)/600;
@@ -27,7 +27,7 @@ function publishResult(){
     if(percentage>100){
         document.getElementById("percentage").innerHTML="Please Enter the valid marks";
     }else{
-        document.getElementById("percentage").innerHTML="The Percentage Is:" + percentage+"%";
+        document.getElementById("percentage").innerHTML="The Percentage is: " + percentage+"%";
     }
 
 
