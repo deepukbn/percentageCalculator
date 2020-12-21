@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="1.css">
+
+	
+	</head>	
+	<body>
+		
+		
+		<div class="container">
+			<img src="admin.png" class="admin">
+			<h1>LOGIN</h1> <br>   
+            <form action="index.html" id ="login-form">
+
+				<input type="text"  name = "username" placeholder="Username" required> </br><br>
+				<input type="password" name = "password" placeholder="Password" required> <br><br>
+				<input type="submit" value="Login" id="sub"><br><br>
+				<a href="#">Lost your password?</a><br><br>
+            	<a href="#">Don't have an account?</a>
+				
+			</form>  
+		</div>	
+		
+	
+	</body>
+	<script>
+		const loginForm = document.getElementById("login-form");
+        const loginButton = document.getElementById("sub");
+
+  loginButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      const username = loginForm.username.value;
+      const password = loginForm.password.value;
+
+      if (username === "admin" && password === "admin") {
+		window.location.href = "index.html";
+      } else {
+        alert("username and password is incorrect")
+      }
+})
+	</script>
+</html>
