@@ -17,7 +17,7 @@ function publishResult(){
         document.getElementById("sum").innerHTML="Please Enter the valid marks";
     }
     else{
-    document.getElementById("sum").innerHTML="The Sum Is: " + total ;
+    document.getElementById("sum").innerHTML="The Sum is: " + total + "/600";
     }
 
     let percentage=(total*100)/600;
@@ -38,22 +38,22 @@ function publishResult(){
         alert("please enter valid marks ")
     }
     else if (percentage>=90) {
-        document.getElementById("grade").innerHTML="You'r Passed  with S Grade";
+        document.getElementById("grade").innerHTML="You'r Passed  with A+ Grade";
     }
-    else if (percentage>=75) {
+    else if (percentage>=80) {
         document.getElementById("grade").innerHTML="You'r Passed with A Grade";
+    }
+    else if (percentage>=70) {
+        document.getElementById("grade").innerHTML="You'r Passed with B+ Grade";
     }
     else if (percentage>=60) {
         document.getElementById("grade").innerHTML="You'r Passed with B Grade";
     }
     else if (percentage>=50) {
-        document.getElementById("grade").innerHTML="You'r Passed with C Grade";
-    }
-    else if (percentage>=45) {
-        document.getElementById("grade").innerHTML="You'r Passed with D Grade";
+        document.getElementById("grade").innerHTML="You'r Passed with C+ Grade";
     }
     else if (percentage>=40) {
-        document.getElementById("grade").innerHTML="You'r Passed with E Grade";
+        document.getElementById("grade").innerHTML="You'r Passed with C Grade";
     }
     else{
         document.getElementById("grade").innerHTML="You'r Failed";
