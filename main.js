@@ -34,7 +34,7 @@ function publishResult(){
 
 
 
-    if(percentage>100){
+   /* if(percentage>100){
         alert("please enter valid marks ")
     }
     else if (percentage>=90) {
@@ -59,6 +59,7 @@ function publishResult(){
         document.getElementById("grade").innerHTML="You'r Failed";
 
     }
+    */
 }
 
     
