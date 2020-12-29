@@ -32,10 +32,8 @@ function publishResult(){
 
 
 
-
-
-   /* if(percentage>100){
-        alert("please enter valid marks ")
+    if(percentage>100){
+        alert("Please Enter Valid Marks ")
     }
     else if (percentage>=90) {
         document.getElementById("grade").innerHTML="You'r Passed  with A+ Grade";
@@ -52,14 +50,22 @@ function publishResult(){
     else if (percentage>=50) {
         document.getElementById("grade").innerHTML="You'r Passed with C+ Grade";
     }
-    else if (percentage>=40) {
+    else if (percentage>=35) {
         document.getElementById("grade").innerHTML="You'r Passed with C Grade";
     }
     else{
         document.getElementById("grade").innerHTML="You'r Failed";
 
     }
-    */
+
+
+    
+    if( (IS701 <= 34) || (IS702 <= 34) || (IS703 <= 34) || (IS704 <= 34) || (IS705 <= 34)|| (IS706 <= 34))
+    {
+        document.getElementById("grade").innerHTML="You'r Failed";
+    }
+
+    
 }
 
     
