@@ -11,7 +11,7 @@ body{
     background-position: center;
 }
 .card{
-    height: 63vh;
+    height: 67vh;
     width: 40vw;
     border-radius: 25px;
     margin: auto;
@@ -67,7 +67,7 @@ button{
     font-weight: 850;
     margin: auto;
     height: 110px;
-    margin-top: -100px;
+    margin-top: -200px;
     margin-right: 20px;
     margin-bottom: 20px;
     width: 300px;
@@ -75,3 +75,4 @@ button{
     background-color: #091921;
     background: url(3.jpg);
 }
+
